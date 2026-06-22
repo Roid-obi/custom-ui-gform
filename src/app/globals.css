@@ -1,13 +1,15 @@
 @import "tailwindcss";
 
-:root {
-
+@theme {
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
 }
 
-@theme inline {
-
+:root {
+  --primary: #5746e3; /* SV UNS Purple */
+  --primary-hover: #4333c7;
+  --secondary: #fbbf24; /* SV UNS Yellow */
 }
 
 body {
-
+  font-family: var(--font-sans);
 }
